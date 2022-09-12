@@ -1,13 +1,13 @@
-package com.example.cicdtest;
+package com.example.cicdprac;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CicdTestApplicationTests {
+class CicdPracApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
