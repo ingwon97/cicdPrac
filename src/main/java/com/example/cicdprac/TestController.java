@@ -11,4 +11,9 @@ public class TestController {
         System.out.println(testStr);
         return testStr;
     }
+
+    @GetMapping("/")
+    public String main() {
+        return "CI/CD TEST 성공";
+    }
 }
