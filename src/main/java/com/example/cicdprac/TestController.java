@@ -26,4 +26,9 @@ public class TestController {
         System.out.println(value);
         return "data";
     }
+
+    @GetMapping("/update")
+    public String update() {
+        return "update 확인";
+    }
 }
