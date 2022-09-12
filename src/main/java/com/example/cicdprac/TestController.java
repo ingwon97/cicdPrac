@@ -31,4 +31,9 @@ public class TestController {
     public String update() {
         return "update 확인";
     }
+
+    @GetMapping("/change")
+    public String change() {
+        return "change된 결과";
+    }
 }
