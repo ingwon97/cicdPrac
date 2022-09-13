@@ -41,4 +41,9 @@ public class TestController {
     public String change2() {
         return "change된 결과2";
     }
+
+    @GetMapping("/change3")
+    public String change3() {
+        return "change된 결과3";
+    }
 }
