@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-REPOSITORY=/home/ubuntu/
+REPOSITORY=/home/ubuntu/github_action
 cd $REPOSITORY
 
-APP_NAME=action_codedeploy
+APP_NAME=cicdPrac
 JAR_NAME=$(ls $REPOSITORY/build/libs/ | grep '.jar' | tail -n 1)
 JAR_PATH=$REPOSITORY/build/libs/$JAR_NAME
 
